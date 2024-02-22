@@ -1,0 +1,41 @@
+.padre {
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  /* background-color: #c4c4c4; */
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista_nav {
+  display: flex;
+  gap: 10px;
+
+}
+
+.list {
+  color: green;
+  list-style: none;
+  font-size: large;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+  transition: border-bottom 100ms;
+  cursor: pointer;
+}
+
+.list:hover {
+  border-bottom: 3px solid green;
+  padding-bottom: 3px;
+}
+
+.logo {
+  border-radius: 100%;
+  width: 100px;
+}
